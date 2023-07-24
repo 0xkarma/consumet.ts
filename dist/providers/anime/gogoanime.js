@@ -12,7 +12,7 @@ class Gogoanime extends models_1.AnimeParser {
     constructor(proxyConfig) {
         super('https://www.gogoanime.dk', proxyConfig);
         this.name = 'Gogoanime';
-        this.baseUrl = 'https://gogoanime.cl';
+        this.baseUrl = 'https://gogoanimehd.to';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
         this.classPath = 'ANIME.Gogoanime';
         this.ajaxUrl = 'https://ajax.gogo-load.com/ajax';
